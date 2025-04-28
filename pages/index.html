@@ -1,0 +1,241 @@
+<!-- pages/index.html
+────────────────────────────────────────────────────────
+Static front‑end scaffold for the “Scent Psych” quiz.
+CSS (styles.css) will supply the gradients / layout.
+JS  (scripts.js) will orchestrate flow, soft‑snap logic,
+AI calls, and results rendering.            -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Scent Psych • Discover Your Fragrance DNA</title>
+
+		<!-- Puter authentication -->
+		<script src="https://js.puter.com/v2/"></script>
+
+		<!-- Core JS logic placed in /pages/scripts.js -->
+		<script src="scripts.js" type="module" defer></script>
+
+		<!-- Core stylesheet placed in /pages/styles.css -->
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<main id="app">
+			<!--──────────────── 1 ▸ Intro Screen ────────────────-->
+			<section id="intro" class="screen">
+				<h1 class="brand">Scent&nbsp;Psych</h1>
+				<p class="tagline">
+					Answer a few color‑driven questions and we’ll decode your
+					perfect fragrance.
+				</p>
+				<button id="startBtn" class="cta">Begin</button>
+			</section>
+
+			<!--─────────────── 2 ▸ Quiz Form Screens ─────────────-->
+			<form id="quizForm" class="screen hidden" autocomplete="off">
+				<!-- Progress bar -->
+				<div id="progressBar"><span id="progressFill"></span></div>
+
+				<!-- QUESTION 1: Season Comfort -->
+				<div class="question" data-q="1">
+					<h2>
+						Which part of the year feels most like <em>home</em> to
+						you?
+					</h2>
+					<input
+						type="range"
+						id="q1"
+						name="seasonComfort"
+						class="slider gradient--season"
+						min="1"
+						max="100"
+						value="50"
+					/>
+					<div class="end‑labels">
+						<span class="label--left">Cool&nbsp;Blue</span>
+						<span class="label--right">Warm&nbsp;Orange</span>
+					</div>
+				</div>
+
+				<!-- QUESTION 2: Time‑of‑Day Energy -->
+				<div class="question hidden" data-q="2">
+					<h2>When are you at your peak energy?</h2>
+					<input
+						type="range"
+						id="q2"
+						name="timeEnergy"
+						class="slider gradient--dawnNoonDusk"
+						min="1"
+						max="100"
+						value="50"
+					/>
+					<div class="end‑labels">
+						<span>Dawn</span><span>Dusk</span>
+					</div>
+				</div>
+
+				<!-- QUESTION 3: Comfort Environment -->
+				<div class="question hidden" data-q="3">
+					<h2>Pick the place that comforts you most.</h2>
+					<input
+						type="range"
+						id="q3"
+						name="comfortEnv"
+						class="slider gradient--forestUrban"
+						min="1"
+						max="100"
+						value="50"
+					/>
+					<div class="end‑labels">
+						<span>Forest</span><span>City</span>
+					</div>
+				</div>
+
+				<!-- QUESTION 4: Rain Reaction -->
+				<div class="question hidden" data-q="4">
+					<h2>How do you feel when it starts to rain?</h2>
+					<input
+						type="range"
+						id="q4"
+						name="rainFeel"
+						class="slider gradient--cozyVibrant"
+						min="1"
+						max="100"
+						value="50"
+					/>
+					<div class="end‑labels">
+						<span>Cozy&nbsp;Inside</span
+						><span>Dancing&nbsp;Outside</span>
+					</div>
+				</div>
+
+				<!-- QUESTION 5: Memory Trigger -->
+				<div class="question hidden" data-q="5">
+					<h2>Which scent memory warms your heart the most?</h2>
+					<input
+						type="range"
+						id="q5"
+						name="memory"
+						class="slider gradient--cleanComplex"
+						min="1"
+						max="100"
+						value="50"
+					/>
+					<div class="end‑labels">
+						<span>Fresh&nbsp;Laundry</span
+						><span>Old&nbsp;Leather</span>
+					</div>
+				</div>
+
+				<!-- QUESTION 6: Social Energy -->
+				<div class="question hidden" data-q="6">
+					<h2>Your ideal social vibe?</h2>
+					<input
+						type="range"
+						id="q6"
+						name="social"
+						class="slider gradient--quietParty"
+						min="1"
+						max="100"
+						value="50"
+					/>
+					<div class="end‑labels">
+						<span>Library</span><span>Party</span>
+					</div>
+				</div>
+
+				<!-- QUESTION 7: Nature Connection -->
+				<div class="question hidden" data-q="7">
+					<h2>Which piece of nature calls to you?</h2>
+					<input
+						type="range"
+						id="q7"
+						name="nature"
+						class="slider gradient--citrusForest"
+						min="1"
+						max="100"
+						value="50"
+					/>
+					<div class="end‑labels">
+						<span>Citrus&nbsp;Grove</span
+						><span>Forest&nbsp;Floor</span>
+					</div>
+				</div>
+
+				<!-- QUESTION 8: Texture Association -->
+				<div class="question hidden" data-q="8">
+					<h2>Pick the texture that feels most “you.”</h2>
+					<input
+						type="range"
+						id="q8"
+						name="texture"
+						class="slider gradient--silkVelvet"
+						min="1"
+						max="100"
+						value="50"
+					/>
+					<div class="end‑labels">
+						<span>Silk</span><span>Velvet</span>
+					</div>
+				</div>
+
+				<!-- QUESTION 9: Evening Relaxation -->
+				<div class="question hidden" data-q="9">
+					<h2>Your go‑to evening wind‑down?</h2>
+					<input
+						type="range"
+						id="q9"
+						name="evening"
+						class="slider gradient--bathFire"
+						min="1"
+						max="100"
+						value="50"
+					/>
+					<div class="end‑labels">
+						<span>Warm&nbsp;Bath</span><span>Fireside</span>
+					</div>
+				</div>
+
+				<!-- QUESTION 10: Adventure Scenario -->
+				<div class="question hidden" data-q="10">
+					<h2>Choose your spontaneous day trip.</h2>
+					<input
+						type="range"
+						id="q10"
+						name="adventure"
+						class="slider gradient--mountainCity"
+						min="1"
+						max="100"
+						value="50"
+					/>
+					<div class="end‑labels">
+						<span>Mountain</span><span>City&nbsp;Streets</span>
+					</div>
+				</div>
+
+				<!-- Add in extra question asking user for any scents they know they like of if they've tried other fragrences before and liked them -->
+
+				<!-- Navigation controls -->
+				<div class="navControls">
+					<button type="button" id="prevBtn" class="secondary">
+						Back
+					</button>
+					<button type="button" id="nextBtn" class="primary">
+						Next
+					</button>
+					<button type="submit" id="submitBtn" class="primary hidden">
+						Show&nbsp;My&nbsp;Matches
+					</button>
+				</div>
+			</form>
+
+			<!--─────────────── 3 ▸ Results Screen ────────────────-->
+			<section id="results" class="screen hidden">
+				<h2>Your scent spectrum is loading…</h2>
+				<div id="resultContainer"></div>
+				<button id="restartBtn" class="secondary">Try Again</button>
+			</section>
+		</main>
+	</body>
+</html>

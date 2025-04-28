@@ -1,0 +1,978 @@
+[
+  {
+    "name": "297 - Inspired by Sauvage (Male)",
+    "url": "https://thescentreserve.com/products/297-inspired-by-sauvage",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:18:56.624Z"
+  },
+  {
+    "name": "103 - Inspired by One Million (Male)",
+    "url": "https://thescentreserve.com/products/103-inspired-by-one-million",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:18:58.216Z"
+  },
+  {
+    "name": "149 - Inspired by Baccarat Rouge 540 (Unisex)",
+    "url": "https://thescentreserve.com/products/149-inspired-by-baracatt-rouge-540",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:18:59.748Z"
+  },
+  {
+    "name": "25 - Inspired by Aventus (Male)",
+    "url": "https://thescentreserve.com/products/25-inspired-by-aventus",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:01.721Z"
+  },
+  {
+    "name": "284 - Inspired by Black Opium (Female)",
+    "url": "https://thescentreserve.com/products/284-inspired-by-black-opium",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:03.434Z"
+  },
+  {
+    "name": "141 - Inspired by Boss Bottled (Male)",
+    "url": "https://thescentreserve.com/products/141-inspired-by-boss-bottled",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:04.912Z"
+  },
+  {
+    "name": "185 - Inspired by Invictus (Male)",
+    "url": "https://thescentreserve.com/products/185-inspired-by-invictus",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:06.609Z"
+  },
+  {
+    "name": "73 - Inspired by Alien (Female)",
+    "url": "https://thescentreserve.com/products/73-inspired-by-alien",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:08.241Z"
+  },
+  {
+    "name": "36 - Inspired by Lady Million (Female)",
+    "url": "https://thescentreserve.com/products/36-inspired-by-lady-million",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:09.772Z"
+  },
+  {
+    "name": "238 - Inspired by Daisy (Female)",
+    "url": "https://thescentreserve.com/products/238-inspired-by-daisy",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:11.328Z"
+  },
+  {
+    "name": "344 - Inspired by Good Girl (Female)",
+    "url": "https://thescentreserve.com/products/344-inspired-by-good-girl",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:12.905Z"
+  },
+  {
+    "name": "397 - Inspired by La Vie Est Belle (Female)",
+    "url": "https://thescentreserve.com/products/397-inspired-by-la-vie-est-belle",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:14.492Z"
+  },
+  {
+    "name": "267 - Inspired by Flowerbomb (Female)",
+    "url": "https://thescentreserve.com/products/267-inspired-by-flowerbomb",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:16.161Z"
+  },
+  {
+    "name": "571 - Inspired by J'adore (Female)",
+    "url": "https://thescentreserve.com/products/571-inspired-by-jadore",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:17.640Z"
+  },
+  {
+    "name": "361 - Inspired by Oud Wood (Unisex)",
+    "url": "https://thescentreserve.com/products/361-inspired-by-oud-wood",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:19.210Z"
+  },
+  {
+    "name": "494 - Inspired by Lost Cherry (Unisex)",
+    "url": "https://thescentreserve.com/products/494-inspired-by-lost-cherry",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:20.890Z"
+  },
+  {
+    "name": "105 - Inspired by Libre (Female)",
+    "url": "https://thescentreserve.com/products/105-inspired-by-libre",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:22.420Z"
+  },
+  {
+    "name": "442 - Inspired by Olympea (Female)",
+    "url": "https://thescentreserve.com/products/442-inspired-by-olympia",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:24.257Z"
+  },
+  {
+    "name": "66 - Inspired by Spice Bomb (Male)",
+    "url": "https://thescentreserve.com/products/66-inspired-by-spice-bomb",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:25.932Z"
+  },
+  {
+    "name": "51 - Inspired by Si (Female)",
+    "url": "https://thescentreserve.com/products/51-inspired-by-si",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:28.159Z"
+  },
+  {
+    "name": "555 - Inspired by Angel (Female)",
+    "url": "https://thescentreserve.com/products/555-inspired-by-angel",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:29.700Z"
+  },
+  {
+    "name": "223 - Inspired by Tobacco Vanille (Unisex)",
+    "url": "https://thescentreserve.com/products/223-inspired-by-tobacco-vanilla",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:31.460Z"
+  },
+  {
+    "name": "598 - Inspired by Mont Blanc (Male)",
+    "url": "https://thescentreserve.com/products/598-inspired-by-mont-blanc",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:33.303Z"
+  },
+  {
+    "name": "150 - Inspired by Acqua Di Gio (Male)",
+    "url": "https://thescentreserve.com/products/150-inspired-by-acqua-di-gio",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:34.844Z"
+  },
+  {
+    "name": "388 - Inspired by Fahrenheit 2019+ (Male)",
+    "url": "https://thescentreserve.com/products/388-inspired-by-farenheit",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:36.299Z"
+  },
+  {
+    "name": "307 - Inspired by Code (Male)",
+    "url": "https://thescentreserve.com/products/307-inspired-by-code",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:38.180Z"
+  },
+  {
+    "name": "514 - Inspired by Black Orchid (Unisex)",
+    "url": "https://thescentreserve.com/products/514-inspired-by-black-orchid",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:39.807Z"
+  },
+  {
+    "name": "108 - Inspired by Halfeti (Unisex)",
+    "url": "https://thescentreserve.com/products/108-inspired-by-halfeti",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:41.321Z"
+  },
+  {
+    "name": "120 - Inspired by Eros (Male)",
+    "url": "https://thescentreserve.com/products/120-inspired-by-eros",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:43.100Z"
+  },
+  {
+    "name": "400 - Inspired by Viking (Male)",
+    "url": "https://thescentreserve.com/products/400-inspired-by-viking",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:44.635Z"
+  },
+  {
+    "name": "260 - Inspired by Aventus For Her (Female)",
+    "url": "https://thescentreserve.com/products/260-inspired-by-aventus-for-her",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:46.282Z"
+  },
+  {
+    "name": "550 - Inspired by Sauvage Elixir (Male)",
+    "url": "https://thescentreserve.com/products/550-inspired-by-sauvage-elixir-male",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:47.792Z"
+  },
+  {
+    "name": "56 - Inspired by Le Male (Male)",
+    "url": "https://thescentreserve.com/products/56-inspired-by-le-male",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:49.341Z"
+  },
+  {
+    "name": "318 - Inspired by Green Irish Tweed (Male)",
+    "url": "https://thescentreserve.com/products/318-inspired-by-green-irish-tweed",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:50.775Z"
+  },
+  {
+    "name": "48 - Inspired by Phantom (Male)",
+    "url": "https://thescentreserve.com/products/48-inspired-by-phantom",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:52.151Z"
+  },
+  {
+    "name": "364 - Inspired by Guilty (Female)",
+    "url": "https://thescentreserve.com/products/364-inspured-by-guilty",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:53.699Z"
+  },
+  {
+    "name": "180 - Inspired by Silver Mountain Water (Male)",
+    "url": "https://thescentreserve.com/products/180-inspired-by-silver-mountain-water",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:55.266Z"
+  },
+  {
+    "name": "147 - Inspired by Love Don't Be Shy (Female)",
+    "url": "https://thescentreserve.com/products/147-inspired-by-love-dont-be-shy",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:56.905Z"
+  },
+  {
+    "name": "202 - Inspired by Velvet Rose & Oud (Female)",
+    "url": "https://thescentreserve.com/products/202-inspired-by-velvet-rose-oud",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:19:58.545Z"
+  },
+  {
+    "name": "199 - Inspired by Fame (Female)",
+    "url": "https://thescentreserve.com/products/199-inspired-by-fame",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:00.678Z"
+  },
+  {
+    "name": "600 - Inspired by Diamonds (Female)",
+    "url": "https://thescentreserve.com/products/600-inspired-by-diamonds",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:02.465Z"
+  },
+  {
+    "name": "175 - Inspired by Ombre Nomade (Unisex)",
+    "url": "https://thescentreserve.com/products/175-inspired-by-ombre-nomade-unisex",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:04.049Z"
+  },
+  {
+    "name": "78 - Inspired by Fking Fabulous (Unisex)",
+    "url": "https://thescentreserve.com/products/78-inspired-by-fking-fabulous",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:05.567Z"
+  },
+  {
+    "name": "235 - Inspired by Bon Bon (Female)",
+    "url": "https://thescentreserve.com/products/235-inspired-by-bon-bon",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:07.195Z"
+  },
+  {
+    "name": "126 - Inspired by Santal 33 (Unisex)",
+    "url": "https://thescentreserve.com/products/126-inspired-by-santal-33",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:08.678Z"
+  },
+  {
+    "name": "211 - Inspired by Neroli Portofino (Unisex)",
+    "url": "https://thescentreserve.com/products/211-inspired-by-neroli-portofino",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:10.183Z"
+  },
+  {
+    "name": "44 - Inspired by Miss Dior (Female)",
+    "url": "https://thescentreserve.com/products/44-inspired-by-miss-dior-female-1",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:11.855Z"
+  },
+  {
+    "name": "450 - Inspired by Light Blue (Female)",
+    "url": "https://thescentreserve.com/products/450-inspired-by-light-blue",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:13.393Z"
+  },
+  {
+    "name": "465 - Inspired by Pomegranate Noir (Unisex)",
+    "url": "https://thescentreserve.com/products/465-inspired-by-pomegranate-noir",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:15.049Z"
+  },
+  {
+    "name": "321 - Inspired by G Oud (Unisex)",
+    "url": "https://thescentreserve.com/products/321-inspired-by-g-oud",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:16.487Z"
+  },
+  {
+    "name": "275 - Inspired by Joy (Female)",
+    "url": "https://thescentreserve.com/products/275-inspired-by-joy",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:18.007Z"
+  },
+  {
+    "name": "520 - Inspired by Myrrh & Tonka (Female)",
+    "url": "https://thescentreserve.com/products/520-inspired-by-myrrh-tonka",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:19.565Z"
+  },
+  {
+    "name": "346 - Inspired by Lime Basil Mandarin (Female)",
+    "url": "https://thescentreserve.com/products/346-inspired-by-lime-basil-mandarin",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:21.036Z"
+  },
+  {
+    "name": "382 - Inspired by English Pear & Freesia (Female)",
+    "url": "https://thescentreserve.com/products/382-inspired-by-english-pear-freesia",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:22.587Z"
+  },
+  {
+    "name": "587 - Inspired by Attitude (Male)",
+    "url": "https://thescentreserve.com/products/587-inspired-by-attitude",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:24.074Z"
+  },
+  {
+    "name": "444 - Inspired by Virgin Island Water (Male)",
+    "url": "https://thescentreserve.com/products/444-inspired-by-virgin-island-water",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:25.586Z"
+  },
+  {
+    "name": "157 - Inspired by Terre de Hermes (Male)",
+    "url": "https://thescentreserve.com/products/157-inspired-by-terre-de-hermes-male",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:27.141Z"
+  },
+  {
+    "name": "219 - Inspired by Bitter Peach (Unisex)",
+    "url": "https://thescentreserve.com/products/219-inspired-by-bitter-peach",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:28.641Z"
+  },
+  {
+    "name": "588 - Inspired by Poison (Female)",
+    "url": "https://thescentreserve.com/products/588-inspired-by-poison-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:30.138Z"
+  },
+  {
+    "name": "322 - Inspired by I. Miyake - Nuit (Male)",
+    "url": "https://thescentreserve.com/products/322-inspired-by-i-miyake-nuit-male",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:32.278Z"
+  },
+  {
+    "name": "99 - Inspired by Gypsy Water (Unisex)",
+    "url": "https://thescentreserve.com/products/99-inspired-by-gypsy-water",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:33.904Z"
+  },
+  {
+    "name": "149 x 297 - Blended Inspired by Baccarat & Sauvage",
+    "url": "https://thescentreserve.com/products/149-x-297-blended-inspired-by-baccarat-sauvage",
+    "topNotes": "Fresh Citrus & Sweet Spice, Aromatic Glow",
+    "middleNotes": "Spicy Aromatic Blend, Amberwood",
+    "bottomNotes": "Woody & Musky, Sugared Smoke",
+    "lastUpdated": "2025-04-22T01:20:35.535Z"
+  },
+  {
+    "name": "421 - Inspired by XS (Female)",
+    "url": "https://thescentreserve.com/products/421-inspired-by-xs",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:37.110Z"
+  },
+  {
+    "name": "16 - Inspired by Vanilla Candy Rock Sugar (Female)",
+    "url": "https://thescentreserve.com/products/16-inspired-by-vanilla-candy-rock-sugar-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:38.575Z"
+  },
+  {
+    "name": "280 - Inspired by Ultraviolet (Female)",
+    "url": "https://thescentreserve.com/products/280-inspired-by-ultraviolet-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:40.039Z"
+  },
+  {
+    "name": "515 - Inspired by TDH Decadence (Female)",
+    "url": "https://thescentreserve.com/products/515-inspired-by-decadence",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:41.532Z"
+  },
+  {
+    "name": "333 - Inspired by Paradox Intense (Female)",
+    "url": "https://thescentreserve.com/products/333-inspired-by-paradox-intense-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:43.049Z"
+  },
+  {
+    "name": "370 - Inspired by Rose Prick (Unisex)",
+    "url": "https://thescentreserve.com/products/370-inspired-by-rose-prick",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:44.635Z"
+  },
+  {
+    "name": "100 - Inspired by Bloom (Female)",
+    "url": "https://thescentreserve.com/products/100-inspired-by-bloom-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:46.178Z"
+  },
+  {
+    "name": "477 - Inspired by Bad Boy (Male)",
+    "url": "https://thescentreserve.com/products/477-inspired-by-bad-boy-male",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:47.643Z"
+  },
+  {
+    "name": "258 - Inspired by MJ Decadance (Female)",
+    "url": "https://thescentreserve.com/products/258-inspired-by-mj-decadance-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:49.499Z"
+  },
+  {
+    "name": "149 x 25 - Blended Inspired by Baccarat & Aventus",
+    "url": "https://thescentreserve.com/products/149-x-25-blended-fragrance-inspired-by-baccarat-aventus",
+    "topNotes": "Citrus & Fruity Brightness",
+    "middleNotes": "Floral & Smoky depth",
+    "bottomNotes": "Woody & Musky Complexity",
+    "lastUpdated": "2025-04-22T01:20:51.069Z"
+  },
+  {
+    "name": "412 - Inspired by Tuscan Leather (Unisex)",
+    "url": "https://thescentreserve.com/products/412-inspired-by-tuscan-leather-unisex",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:52.579Z"
+  },
+  {
+    "name": "22 - Inspired by I want Choo (Female)",
+    "url": "https://thescentreserve.com/products/22-inspired-by-i-want-choo-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:54.080Z"
+  },
+  {
+    "name": "41 - Inspired by Iso E Super (Unisex)",
+    "url": "https://thescentreserve.com/products/41-inspired-by-molecule-01",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:55.564Z"
+  },
+  {
+    "name": "42 - Inspired by Stronger With You (Male)",
+    "url": "https://thescentreserve.com/products/42-inspired-by-stronger-with-you-male",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:57.682Z"
+  },
+  {
+    "name": "90 - Inspired by Ombre Leather (Unisex)",
+    "url": "https://thescentreserve.com/products/90-inspired-by-ombre-leather-unisex",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:20:59.166Z"
+  },
+  {
+    "name": "97 - Inspired by Good Girl Gone Bad (Female)",
+    "url": "https://thescentreserve.com/products/97-inspired-by-good-girl-gone-bad-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:00.749Z"
+  },
+  {
+    "name": "77 - Inspired by Only the Brave (Male)",
+    "url": "https://thescentreserve.com/products/77-inspired-by-only-the-brave-male",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:02.327Z"
+  },
+  {
+    "name": "501 - Inspired by Fierce (Male)",
+    "url": "https://thescentreserve.com/products/501-inspired-by-fierce-male",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:03.923Z"
+  },
+  {
+    "name": "10 - Inspired by Cheirosa 62 (Unisex)",
+    "url": "https://thescentreserve.com/products/10-inspired-by-cheirosa-62-unisex",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:05.472Z"
+  },
+  {
+    "name": "450 x 297 - Blended Inspired by Light Blue & Sauvage",
+    "url": "https://thescentreserve.com/products/450-x-297-blended-inspired-by-light-blue-sauvage",
+    "topNotes": "Citrus Burst with a Spicy Edge, Aromatic Freshness",
+    "middleNotes": "Herbal-Fruity Harmony, Spicy Nuance",
+    "bottomNotes": "Woody-Musk, Earthy Freshness",
+    "lastUpdated": "2025-04-22T01:21:07.071Z"
+  },
+  {
+    "name": "442 x 397 - Blended Inspired by Olympea & La Vie Est Belle",
+    "url": "https://thescentreserve.com/products/442-x-397-blended-inspired-by-olympea-la-vie-est-belle",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:08.569Z"
+  },
+  {
+    "name": "133 - Inspired by B Orange (Male)",
+    "url": "https://thescentreserve.com/products/133-inspired-by-b-orange-male",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:10.054Z"
+  },
+  {
+    "name": "200 - Inspired by Yum Pistachio Gelato (Female)",
+    "url": "https://thescentreserve.com/products/200-inspired-by-yum-pistachio-gelato-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:11.670Z"
+  },
+  {
+    "name": "599 - Inspired by Rush (Female)",
+    "url": "https://thescentreserve.com/products/599-inspired-by-rush-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:13.422Z"
+  },
+  {
+    "name": "115 - Inspired by Cool Water (Male)",
+    "url": "https://thescentreserve.com/products/115-inspired-by-cool-water-male",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:15.042Z"
+  },
+  {
+    "name": "18 - Inspired by White Patchouli (Unisex)",
+    "url": "https://thescentreserve.com/products/18-inspired-by-white-patchouli-unisex",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:16.870Z"
+  },
+  {
+    "name": "8 - Inspired by Himalaya (Male)",
+    "url": "https://thescentreserve.com/products/8-inspired-by-himalaya-male",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:18.434Z"
+  },
+  {
+    "name": "88 - Inspired by La Nuit Tresor Nude (Female)",
+    "url": "https://thescentreserve.com/products/88-inspired-by-la-nuit-tresor-nude-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:19.890Z"
+  },
+  {
+    "name": "7 - Inspired by Legend (Male)",
+    "url": "https://thescentreserve.com/products/7-inspired-by-legend-male",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:21.527Z"
+  },
+  {
+    "name": "444 x 25 - Blended Inspired by Virgin Island Water & Aventus",
+    "url": "https://thescentreserve.com/products/444-x-25-blended-inspired-by-virgin-island-water-aventus",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:23.596Z"
+  },
+  {
+    "name": "49 - Inspired by Delina (Female)",
+    "url": "https://thescentreserve.com/products/49-inspired-by-delina-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:25.215Z"
+  },
+  {
+    "name": "4 - Inspired by Soleil Blanc (Unisex)",
+    "url": "https://thescentreserve.com/products/4-inspired-by-soleil-blanc-unisex",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:26.669Z"
+  },
+  {
+    "name": "160 - Inspired by Princess (Female)",
+    "url": "https://thescentreserve.com/products/160-inspired-by-princess-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:28.449Z"
+  },
+  {
+    "name": "300 - Inspired by Perfect (Female)",
+    "url": "https://thescentreserve.com/products/300-inspired-by-perfect-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:29.943Z"
+  },
+  {
+    "name": "61 - Inspired by Crystal Noir (Female)",
+    "url": "https://thescentreserve.com/products/61-inspired-by-crystal-noir-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:31.833Z"
+  },
+  {
+    "name": "222 - Inspired by Roses Vanille (Unisex)",
+    "url": "https://thescentreserve.com/products/222-inspired-by-roses-vanille-unisex",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:33.481Z"
+  },
+  {
+    "name": "16 x 149 - Blended Inspired by Vanilla Candy Rock Sugar & Baccarat Rouge 540",
+    "url": "https://thescentreserve.com/products/16-x-149-blended-inspired-by-vanilla-candy-rock-sugar-baccarat-rouge-540",
+    "topNotes": "Sugary, Cotton Candy-Like Sweetness",
+    "middleNotes": "Warm, Creamy Vanilla & Amber Fusion",
+    "bottomNotes": "Velvety, Woody, and Addictive",
+    "lastUpdated": "2025-04-22T01:21:34.970Z"
+  },
+  {
+    "name": "401 - Inspired by Peony & Blush Suede (Female)",
+    "url": "https://thescentreserve.com/products/401-inspired-by-peony-blush-suede-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:36.547Z"
+  },
+  {
+    "name": "535 - Inspired by Spice & Wood (Unisex)",
+    "url": "https://thescentreserve.com/products/535-inspired-by-spice-wood-unisex",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:38.367Z"
+  },
+  {
+    "name": "20 - Inspired by Cloud (Female)",
+    "url": "https://thescentreserve.com/products/20-inspired-by-cloud-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:39.917Z"
+  },
+  {
+    "name": "322 x 514 - Blended Inspired by I.Miyake & Black Orchid",
+    "url": "https://thescentreserve.com/products/322-x-514-blended-inspired-by-i-miyake-black-orchid",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:41.403Z"
+  },
+  {
+    "name": "505 - Inspired by Erolfa (Male)",
+    "url": "https://thescentreserve.com/products/505-inspired-by-erolfa-male",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:43.585Z"
+  },
+  {
+    "name": "53 - Inspired by Oud Save the Queen (Female)",
+    "url": "https://thescentreserve.com/products/53-inspired-by-oud-save-the-queen-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:45.426Z"
+  },
+  {
+    "name": "31 - Inspired by Bal D'Afrique (Unisex)",
+    "url": "https://thescentreserve.com/products/31-inspired-by-bal-dafrique-unisex",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:46.959Z"
+  },
+  {
+    "name": "36 x 16 - Blended Inspired by Lady Million & Vanilla Candy Rock Sugar",
+    "url": "https://thescentreserve.com/products/36-x-16-blended-inspired-by-lady-million-vanilla-candy-rock-sugar",
+    "topNotes": "Citrusy Honeyed Glow",
+    "middleNotes": "Floral & Gourmand Harmony",
+    "bottomNotes": "Warm, Woody & Addictive",
+    "lastUpdated": "2025-04-22T01:21:48.542Z"
+  },
+  {
+    "name": "240 - Inspired by The Fireplace (Unisex)",
+    "url": "https://thescentreserve.com/products/240-inspired-by-the-fireplace-unisex",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:50.073Z"
+  },
+  {
+    "name": "60 - Inspired by Plum Japonais (Unisex)",
+    "url": "https://thescentreserve.com/products/60-inspired-by-plum-japonais-unisex",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:51.715Z"
+  },
+  {
+    "name": "350 - Inspired by Scarlett Poppy (Female)",
+    "url": "https://thescentreserve.com/products/350-inspired-by-scarlett-poppy-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:53.337Z"
+  },
+  {
+    "name": "480 - Inspired by Love in Black (Female)",
+    "url": "https://thescentreserve.com/products/480-inspired-by-love-in-black-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:54.926Z"
+  },
+  {
+    "name": "162 - Inspired by Bleecker Street (Unisex)",
+    "url": "https://thescentreserve.com/products/162-inspired-by-bleecker-street-unisex",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:21:57.330Z"
+  },
+  {
+    "name": "100 x 333 - Blended Inspired by Bloom & Paradox Intense",
+    "url": "https://thescentreserve.com/products/100-x-333-blended-inspired-by-bloom-paradox-intense",
+    "topNotes": "Bright & Fresh Floral Opulence",
+    "middleNotes": "Lush White Florals & Modern Sweetness",
+    "bottomNotes": "Soft, Warm, and Elegant",
+    "lastUpdated": "2025-04-22T01:21:58.832Z"
+  },
+  {
+    "name": "80 - Inspired by Portrait of a Lady (Female)",
+    "url": "https://thescentreserve.com/products/80-inspired-by-portrait-of-a-lady-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:22:00.485Z"
+  },
+  {
+    "name": "7 x 598 - Blended Inspired by Legend & Explorer",
+    "url": "https://thescentreserve.com/products/7-x-598-blended-inspired-by-legend-explorer",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:22:02.270Z"
+  },
+  {
+    "name": "333 x 222 - Blended Inspired by Paradox Intense & Roses Vanille",
+    "url": "https://thescentreserve.com/products/333-x-222-blended-inspired-by-paradox-intense-roses-vanille",
+    "topNotes": "Bright, Citrusy Sweetness",
+    "middleNotes": "Lush Florals & Creamy Depth",
+    "bottomNotes": "Warm, Gourmand, & Addictive",
+    "lastUpdated": "2025-04-22T01:22:03.792Z"
+  },
+  {
+    "name": "477 x 344 - Blended Inspired by Bad Boy & Good Girl",
+    "url": "https://thescentreserve.com/products/477-x-344-blended-inspired-by-bad-boy-good-girl",
+    "topNotes": "Sweet & Spicy Kick",
+    "middleNotes": "Floral & Aromatic Depth",
+    "bottomNotes": "Creamy, Smoky, and Addictive Finish",
+    "lastUpdated": "2025-04-22T01:22:05.381Z"
+  },
+  {
+    "name": "410 - Inspired by R.E.M (Female)",
+    "url": "https://thescentreserve.com/products/410-inspired-by-r-e-m-female",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:22:06.895Z"
+  },
+  {
+    "name": "180 x 505 - Blended Inspired by Silver Mountain Water & Erolfa",
+    "url": "https://thescentreserve.com/products/180-x-505-blended-inspired-by-silver-mountain-water-erolfa",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:22:08.386Z"
+  },
+  {
+    "name": "31 x 99 - Blended Inspired by Bal D'Afrique & Gypsy Water",
+    "url": "https://thescentreserve.com/products/31-x-99-blended-inspired-by-bal-dafrique-gypsy-water",
+    "topNotes": "Citrus & Earthy Brightness",
+    "middleNotes": "Creamy Florals & Woody Warmth",
+    "bottomNotes": "Smoky, Creamy, and Woody Finish",
+    "lastUpdated": "2025-04-22T01:22:10.444Z"
+  },
+  {
+    "name": "540 - Inspired by Colonia Essenza (Unisex)",
+    "url": "https://thescentreserve.com/products/540-inspired-by-essenza-unisex",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:22:11.940Z"
+  },
+  {
+    "name": "510 - Inspired by White Suede (Unisex)",
+    "url": "https://thescentreserve.com/products/510-inspired-by-white-suede-unisex",
+    "topNotes": "",
+    "middleNotes": "",
+    "bottomNotes": "",
+    "lastUpdated": "2025-04-22T01:22:13.470Z"
+  }
+]
