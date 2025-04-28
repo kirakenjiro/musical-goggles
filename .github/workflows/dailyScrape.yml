@@ -1,0 +1,50 @@
+name: Daily Scrape
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs at 00:00 UTC every day
+  workflow_dispatch:      # Allows manual trigger
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        working-directory: ./scraper
+        run: npm install
+
+      - name: Run scraper
+        working-directory: ./scraper
+        run: node scraper.js
+
+      - name: Commit and push if changed
+        run: |
+            git config --global user.email "github-actions@github.com"
+            git config --global user.name "GitHub Actions"
+            git add data/products.json
+            count=$(jq '. | length' data/products.json)
+
+            # Create commit message with title and description
+            commit_title="Updated product data | Daily scrape complete."
+            commit_description="
+            Automated scrape completed on $(date -u +"%Y-%m-%d %H:%M UTC")
+
+            Summary:
+            - Total products scraped: $count
+            - Data file updated: data/products.json
+            - Next scheduled update: In 24 hours
+
+            This is an automated commit from GitHub Actions workflow.
+            Review the updated product data in data/products.json for any changes."
+
+            # Commit with both title and description
+            git commit -m "$commit_title" -m "$commit_description" || exit 0
+            git push
