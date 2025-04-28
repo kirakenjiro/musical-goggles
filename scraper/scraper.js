@@ -209,6 +209,7 @@ async function main() {
     console.log(`\nScraping complete!`);
     console.log(`Total products saved: ${products.length}`);
     console.log(`Output saved to: ${outputPath}`);
+    process.exit(0);
   } catch (error) {
     console.error('Fatal error:', error);
     process.exit(1);
