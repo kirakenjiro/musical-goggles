@@ -1,0 +1,298 @@
+/* pages/styles.css
+────────────────────────────────────────────────────────
+Global style sheet for Scent Psych quiz.
+• Minimal luxury aesthetic (warm‑neutral + charcoal + gold)
+• Color‑gradient sliders with smooth (non‑snapping) UX
+• Responsive mobile‑first layout
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;700&display=swap");
+
+/*────────────────── Root Design Tokens ──────────────────*/
+:root {
+	--bg-clr: #f9f8f6;
+	--text-clr: #222;
+	--muted-clr: #666;
+	--accent-clr: #c8a96f;
+
+	/* Slider dimensions and thumb */
+	--slider-h: 16px;
+	--thumb-d: 28px;
+	--radius: 8px;
+	--track-bg: #ccc;
+
+	/* Gradients */
+	--gradient-default: linear-gradient(90deg, #aaa, #aaa);
+	--gradient-season: linear-gradient(90deg, #4a90e2 0%, #ffa14a 100%);
+	--gradient-dawnNoonDusk: linear-gradient(
+		90deg,
+		#c6b1ff 0%,
+		#ffe05d 50%,
+		#6a4bbb 100%
+	);
+	--gradient-forestUrban: linear-gradient(90deg, #2c6d4e 0%, #5b5b5b 100%);
+	--gradient-cozyVibrant: linear-gradient(90deg, #b18558 0%, #4ab2ff 100%);
+	--gradient-cleanComplex: linear-gradient(90deg, #f7f7f7 0%, #6b4c2d 100%);
+	--gradient-quietParty: linear-gradient(90deg, #b0c4de 0%, #ff4e50 100%);
+	--gradient-citrusForest: linear-gradient(90deg, #f8c44f 0%, #2d6a4f 100%);
+	--gradient-silkVelvet: linear-gradient(90deg, #fbe9e7 0%, #5a004e 100%);
+	--gradient-bathFire: linear-gradient(90deg, #b4e1ff 0%, #ff9f55 100%);
+	--gradient-mountainCity: linear-gradient(90deg, #4c9c6c 0%, #555555 100%);
+}
+
+/*────────────────── Global Resets ───────────────────────*/
+* {
+	box-sizing: border-box;
+}
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+body {
+	font-family: "Inter", sans-serif;
+	color: var(--text-clr);
+	background-color: var(--bg-clr);
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	padding: 0;
+}
+h1,
+h2 {
+	font-family: "Playfair Display", serif;
+	margin: 0.25em 0;
+	color: var(--text-clr);
+}
+h1 {
+	font-size: clamp(2rem, 4vw, 3rem);
+	font-weight: 700;
+}
+h2 {
+	font-size: clamp(1.25rem, 3.5vw, 2rem);
+	font-weight: 500;
+}
+
+button {
+	font: inherit;
+	cursor: pointer;
+	border: none;
+	border-radius: var(--radius);
+	padding: 0.75em 1.5em;
+	transition: background 0.25s ease, color 0.25s ease, transform 0.25s;
+}
+button.primary {
+	background: var(--accent-clr);
+	color: #fff;
+}
+button.primary:hover {
+	background: #b2925e;
+}
+button.secondary {
+	background: transparent;
+	color: var(--text-clr);
+	border: 1px solid var(--text-clr);
+}
+button.secondary:hover {
+	background: rgba(0, 0, 0, 0.04);
+}
+
+/* Hide utility */
+.hidden {
+	display: none !important;
+}
+
+/*────────────────── Screen Layouts ─────────────────────*/
+.screen {
+	min-height: 100vh;
+	padding: clamp(1rem, 4vw, 3rem);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+/* Intro */
+#intro .cta {
+	margin-top: 2.5rem;
+	font-weight: 500;
+	font-size: 1.125rem;
+}
+
+/* Quiz form */
+#quizForm {
+	width: min(100%, 640px);
+	margin-inline: auto;
+}
+#progressBar {
+	width: 100%;
+	height: 4px;
+	background: #e4e1db;
+	border-radius: 2px;
+	margin-bottom: 2rem;
+	overflow: hidden;
+}
+#progressFill {
+	display: block;
+	width: 0%;
+	height: 100%;
+	background: var(--accent-clr);
+	transition: width 0.35s ease;
+}
+
+/* Question containers */
+.question {
+	margin-bottom: 3.5rem;
+}
+.question h2 {
+	margin-bottom: 1.75rem;
+}
+
+/* End‑labels */
+.end‑labels {
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.875rem;
+	margin-top: 0.5rem;
+	color: var(--muted-clr);
+}
+
+/* Nav Buttons */
+.navControls {
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+/*────────────────── Slider Base Style ──────────────────*/
+input[type="range"] {
+	width: 100%;
+	height: var(--slider-h);
+	-webkit-appearance: none;
+	background: var(--gradient-default); /* fallback gradient */
+	border-radius: var(--radius);
+	outline: none;
+	cursor: pointer;
+	transition: background 0.3s ease-in-out; /* Smooth gradient updates */
+}
+input[type="range"]:focus {
+	outline: none;
+	box-shadow: 0 0 0 3px rgba(200, 169, 111, 0.25);
+}
+
+/* WebKit thumb */
+input[type="range"]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	height: var(--thumb-d);
+	width: var(--thumb-d);
+	background: #fff;
+	border: 2px solid #bbb;
+	border-radius: 50%;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+	transition: transform 0.2s ease;
+	cursor: pointer;
+}
+input[type="range"]:hover::-webkit-slider-thumb {
+	transform: scale(1.2);
+}
+
+/* Firefox specific styles */
+input[type="range"]::-moz-range-thumb {
+	height: var(--thumb-d);
+	width: var(--thumb-d);
+	background: #fff;
+	border: 2px solid #bbb;
+	border-radius: 50%;
+	cursor: pointer;
+}
+input[type="range"]::-moz-range-track {
+	background: var(--gradient-default);
+}
+
+input[type="range"]:focus {
+	outline: 3px solid rgba(200, 169, 111, 0.25);
+}
+
+/*────────────────── Gradient Themes ───────────────────*/
+/* Syntax: lighter color 0% → darker color 100%       */
+/* Dynamically assign background gradients */
+input#q1[type="range"] {
+	background: var(--gradient-season);
+}
+input#q2[type="range"] {
+	background: var(--gradient-dawnNoonDusk);
+}
+input#q3[type="range"] {
+	background: var(--gradient-forestUrban);
+}
+input#q4[type="range"] {
+	background: var(--gradient-cozyVibrant);
+}
+input#q5[type="range"] {
+	background: var(--gradient-cleanComplex);
+}
+input#q6[type="range"] {
+	background: var(--gradient-quietParty);
+}
+input#q7[type="range"] {
+	background: var(--gradient-citrusForest);
+}
+input#q8[type="range"] {
+	background: var(--gradient-silkVelvet);
+}
+input#q9[type="range"] {
+	background: var(--gradient-bathFire);
+}
+input#q10[type="range"] {
+	background: var(--gradient-mountainCity);
+}
+
+/*────────────────── Results Screen ───────────────────*/
+#results {
+	padding-inline: clamp(1rem, 4vw, 3rem);
+}
+#resultContainer {
+	margin: 2rem 0 3rem;
+	width: 100%;
+	max-width: 740px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	justify-content: center;
+}
+.resultCard {
+	flex: 1 1 200px;
+	background: #fff;
+	border-radius: var(--radius);
+	box-shadow: var(--shadow-m);
+	padding: 1rem;
+	text-align: center;
+}
+.resultCard img {
+	max-width: 100%;
+	height: auto;
+	border-radius: var(--radius);
+}
+
+/*────────────────── Layout Utilities ───────────────────*/
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.hidden {
+	display: none !important;
+}
+
+/*────────────────── Media Queries ─────────────────────*/
+@media (min-width: 768px) {
+	.question h2 {
+		font-size: 1.75rem;
+	}
+	button {
+		padding: 0.85em 2em;
+	}
+}
+/*────────────────── End of stylesheet ─────────────────*/
