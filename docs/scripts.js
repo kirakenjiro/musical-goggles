@@ -152,7 +152,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		// but ideally, the AI knows the products or you filter client-side.
 
 		try {
-			const productResponse = await fetch("/data/products.json"); // Fetch local product data
+			const productResponse = await fetch("https://raw.githubusercontent.com/kirakenjiro/musical-goggles/refs/heads/main/data/products.json"); // Fetch local product data
 			if (!productResponse.ok)
 				throw new Error("Failed to load product data");
 			const productsData = await productResponse.json();
